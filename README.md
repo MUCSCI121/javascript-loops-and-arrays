@@ -1,12 +1,33 @@
-# CodespacesWebTemplate
+# JavaScript Arrays, Loops, and Conditionals Practice
+We are going to practice utilizing the Document Object Model (DOM) and JavaScript loops in order to modify a web page.  All of the work will be completed in the `script.js` and `index.html` files.
 
-Provides the basic configuration to launch a GitHub Codespace environment ready for HTML, CSS, and JavaScript coding. The project will spin up a Codespace with the following plugins:
+## Web page setup
+1. Update the `index.html` file so that it references the `script.js` file.
 
-- [Prettier](https://github.com/prettier/prettier-vscode)
-- [LiveServer](https://github.com/ritwickdey/vscode-live-server)
-- [GitDoc](https://github.com/lostintangent/gitdoc)
+## Arrays
+All code will be completed in the `script.js` file.
 
-The **Prettier** plugin helps format your code to a consistent style. The **LiveServer** plugin will launch a local web server to host your web pages. The server will automatically refresh the page when you save your changes. the **GitDoc** plugin allows you to automatically commit and push your changes to your repository on a periodic basis. To enable the **GitDoc** plugin you will need to go to update the Settings configuration for it.
+### Practice 1
+2. Create an array variable and initialize it to an empty array.
+3. Add the value `"test"` to the array by using the `push()` function on the array.
+4. Add the value `"tested"` to the array by using the `push()` function on the array.
+5. Add the value `"tester"` to the array by using the `push()` function on the array.
+6. Write the length of the array variable to the console output using the `console.log()` function.
+7. Write the last value of the array to the console output using the `console.log()` function.  For a challenge, use the array length as part of a calculation to get the index that should be used to get the last value of the array.  Don't forget, what number do indexes start with in arrays?
+8. Write the first value of the array to the console output using the `console.log()` function.
+
+### Practice 2
+1. Create a new array variable and initialize it to the values `1`, `3`, `5`, `8`.
+2. Create a variable called `count` and set the value to `0`.
+3. Create a `while` loop that will iterate over each of the array indexes.
+4. Set the conditional check inside the array so that while `count` is less than the length of the array, the `while` look continues to execute.
+5. Inside the loop write the value of the array at that index to the console using `console.log()`.
+6. Inside the loop, after the `console.log()` statement, increment the `count` variable by `1`.
+
+## References
+* [Arrays](https://www.w3schools.com/js/js_arrays.asp)
+* [while and do/while loops](https://www.w3schools.com/js/js_loop_while.asp)
+
 
 ## Configuration
 
